@@ -25,16 +25,16 @@ function FibonacciUs() {
     return (
     <div>
         <button onClick={() => {
-        setCount(count + 1); // count değerini bir artırır
-        setFibonacci(fib(count + 1)); // fibonacci değerini hesaplar ve atar
+        setCount(count + 1); 
+        setFibonacci(fib(count + 1)); 
         }}>
         Click me
         </button>
         <div> Real Count  {count}</div>
         <div>Fibonacci Count  {fibonacci}</div>
         <button onClick={() => {
-        setCount(count - 1); // count değerini bir azaltır
-        setFibonacci(fib(count - 1)); // fibonacci değerini hesaplar ve atar
+        setCount(count - 1); 
+        setFibonacci(fib(count - 1)); 
         }}>
         Click me
         </button>
