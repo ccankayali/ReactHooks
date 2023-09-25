@@ -20,7 +20,7 @@ function WindowSize() {
     <div>
         <p>
             Pencere boyutu: {width} x {height}
-            <button onClick={() => setWidth(500)}>Genişlet</button>
+            <button onClick={() => setWidth(width+10)}>Genişlet</button>
         </p>
     </div>
   )
